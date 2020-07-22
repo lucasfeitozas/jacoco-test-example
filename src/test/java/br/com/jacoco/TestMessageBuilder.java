@@ -7,9 +7,9 @@ import org.junit.jupiter.api.Test;
 public class TestMessageBuilder {
 
 	@Test
-	public void testNameMkyong() {
+	public void testNameNotEmpty() {
 		MessageBuilder obj = new MessageBuilder();
-		assertEquals("Hello mkyong", obj.getMessage("mkyong"));
+		assertEquals("Hello JohnDoe", obj.getMessage("JohnDoe"));
 	}
 
 	@Test
